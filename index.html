@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: 'Times New Roman', Times, serif sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #131723;
+        line-height: 1.6;
+      }
+
+      /* Header Section */
+      header {
+        background: rgb(241, 154, 164);
+        color: rgb(0, 0, 0);
+        padding: 2rem 0;
+        text-align: center;
+        margin-bottom: 0px;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      nav {
+        margin-top: 1rem;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1rem;
+        font-size: 1rem;
+      }
+
+      /* Resume Section */
+      section {
+        padding: 2rem;
+        margin: 1rem auto;
+        max-width: 800px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Headings */
+      h2 {
+        color: #15205d;
+        font-size: 1.8rem;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 0.5rem;
+      }
+
+      h3 {
+        color: rgb(32, 20, 158);
+        margin-top: 1.5rem;
+      }
+
+      /* Image Styling */
+      img {
+        width: 150px;
+        border-radius: 50%;
+        margin: 10px auto;
+        display: block;
+        border: 2px solid #ccc;
+      }
+
+      /* List Styling */
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+
+      ul li {
+        margin-bottom: 1rem;
+        padding-left: 20px;
+        position: relative;
+      }
+
+      ul li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #05264a;
+        font-weight: bold;
+      }
+
+      /* Footer Section */
+      footer {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+        color: #555;
+      }
+
+      /* Contact Info Styling */
+      .contact-info {
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .contact-info p {
+        margin: 0.5rem 0;
+      }
+
+      .contact-info a {
+        color: #05264a;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+      .aboutme {
+        max-width: 600px; /* Limits the width of the section */
+        margin: 20px auto; /* Centers the section horizontally */
+        padding: 20px; /* Adds padding inside the section */
+        background: white; /* Background color */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+        text-align: center; /* Centers text inside the section */
+      }
+      .aboutme img {
+        margin: 10px auto; /* Centers the image */
+        display: block; /* Ensures the image is treated as a block element */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Resume</h1>
+    </header>
+    <section class="aboutme">
+      <h2>Hamid Razak Khan</h2>
+      <img src="hamid4.jpg" alt="Hamid Razak Khan" />
+      <div class="contact-info">
+        <p><strong>Software Engineer</strong></p>
+        
+          Email:
+          <a href="mailto:hamidrazakkhan2003@gmail.com"
+            >hamidrazakkhan2003@gmail.com</a
+          >
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://linkedin.com/in/hamidrazak" target="_blank"
+            >linkedin.com/in/hamidrazak</a
+          >
+        </p>
+      </div>
+    </section>
+    <section>
+      <h3>Professional Summary</h3>
+      <p>
+        Accomplished Software Developer with over 3 years of experience in
+        creating innovative, scalable, and user-friendly applications.
+        Proficient in frontend and backend technologies, with a strong focus on
+        web development, problem-solving, and team collaboration.
+      </p>
+    </section>
+    <section>
+      <h3>Work Experience</h3>
+      <ul>
+        <li><strong>Rapido:</strong> Software Engineer (2020-2023)</li>
+        <li><strong>Google:</strong> Intern (2019-2020)</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <ul>
+        <li>Programming Languages: JavaScript, Python, Java</li>
+        <li>Frontend: HTML, CSS, React.js, Angular</li>
+        <li>Backend: Node.js, Express.js, Django</li>
+        <li>Database: MySQL, MongoDB</li>
+        <li>Version Control: Git, GitHub</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Education</h3>
+      <ul>
+        <li>
+          <strong>Bachelor's in Computer Science:</strong> ABC University (2020)
+        </li>
+        <li>
+          <strong>Master's in Web Technology:</strong> XYZ University (Expected
+          2024)
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h3>Certifications</h3>
+      <ul>
+        <li>Google Cloud Certified Professional Developer</li>
+        <li>Certified React Developer by Udemy</li>
+      </ul>
+    </section>
+    <footer>&copy; 2024 Hamid Razak Khan. All Rights Reserved.</footer>
+  </body>
+</html>
